@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
       <div
         id="background-image"
-        className="text-7xl md:text-8xl text-center max-w-[1240px] w-full h-screen mx-auto flex justify-around items-center"
+        className="text-6xl md:text-7xl text-center max-w-[1240px] w-full h-screen mx-auto flex justify-around items-center"
         loading="lazy"
       >
         <Typed className="text-[#292020]"
