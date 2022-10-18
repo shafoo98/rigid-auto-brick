@@ -10,6 +10,7 @@ const Hero = () => {
       <div
         id="background-image"
         className="text-7xl md:text-8xl text-center max-w-[1240px] w-full h-screen mx-auto flex justify-around items-center"
+        loading="lazy"
       >
         <Typed className="text-[#292020]"
           strings={[
