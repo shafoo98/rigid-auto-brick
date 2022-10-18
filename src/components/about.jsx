@@ -52,7 +52,7 @@ const About = () => {
           To Contact With Us and Place Your Orders, Please Find Us On The
           Following Social Media Platforms
         </h1>
-        <div className="mt-8 flex justify-center items-center">
+        <div className="mt-8 mb-8 flex justify-center items-center">
           <AiFillFacebook size={75} className="mx-5" />
           <AiFillYoutube size={75} className="mx-5" />
           <AiFillInstagram size={75} className="mx-5" />
