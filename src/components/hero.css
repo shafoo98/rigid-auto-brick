@@ -1,3 +1,4 @@
 #background-image {
     background-image: url('../assets/background.jpg');
+    object-fit: fill;
 }

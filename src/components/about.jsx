@@ -1,5 +1,7 @@
 import React from "react";
 
+import FactoryInterior from "../assets/Factory-Interior.jpeg"
+
 import { AiFillFacebook, AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 
 const About = () => {
@@ -14,6 +16,7 @@ const About = () => {
           the most competitive prices so that they can fulfill their
           infrastructural needs.
         </p>
+        <img src={FactoryInterior} alt="Factory Interior" className="w-50 mx-auto my-5" loading="lazy"/>
         <h1 className="w-full text-2xl font-semibold px-8 py-6">Motivation</h1>
         <p className="md:text-xl px-8 text-stone-700 ">
           Concrete Blocks are a great option for partition walls because they
@@ -52,7 +55,7 @@ const About = () => {
           To Contact With Us and Place Your Orders, Please Find Us On The
           Following Social Media Platforms
         </h1>
-        <div className="mt-8 mb-8 flex justify-center items-center">
+        <div className="my-8 py-4 flex justify-center items-center">
           <AiFillFacebook size={75} className="mx-5" />
           <AiFillYoutube size={75} className="mx-5" />
           <AiFillInstagram size={75} className="mx-5" />

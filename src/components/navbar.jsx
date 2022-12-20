@@ -30,7 +30,7 @@ const Navbar = () => {
             <li className="m-2 font-medium">About Us</li>
           </Link>
           <Link to="gallery">
-            <li className="m-2 font-medium">Gallery</li>
+            <li className="m-2 font-medium">Our Products</li>
           </Link>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
