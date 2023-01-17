@@ -19,7 +19,6 @@ const Gallery = () => {
           src={SolidBrick}
           color="Grey"
           minimumOrderQty={1000}
-          price={14}
           type="Solid"
           size="400 x 200 x 200 mm"
         />
@@ -28,7 +27,6 @@ const Gallery = () => {
           src={Hollow}
           color="Grey"
           minimumOrderQty={1000}
-          price={20}
           type="Hollow"
           size="400 x 200 x 200 mm"
         />
@@ -37,7 +35,6 @@ const Gallery = () => {
           src={Pavement}
           color="Grey"
           minimumOrderQty={1000}
-          price={30}
           type="Pavement Block"
           size="400 x 200 x 200 mm"
         />
@@ -46,7 +43,6 @@ const Gallery = () => {
           src={TenHole}
           color="Grey"
           minimumOrderQty={1000}
-          price={30}
           type="10 Hole Solid Brick"
           size="400 x 200 x 200 mm"
         />
@@ -55,7 +51,6 @@ const Gallery = () => {
           src={Kerb}
           color="Grey"
           minimumOrderQty={1000}
-          price={30}
           type="Kerb Stone"
           size="400 x 200 x 200 mm"
         />

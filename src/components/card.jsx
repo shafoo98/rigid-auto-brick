@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ name, src, type, price, minimumOrderQty, color, size }) => {
+const Card = ({ name, src, type, minimumOrderQty, color, size }) => {
   return (
     <div className="w-full mt-32 md:mt-36 shadow-2xl">
       <h1 className="w-full text-2xl font-bold text-center mt-5">{name}</h1>
@@ -13,7 +13,7 @@ const Card = ({ name, src, type, price, minimumOrderQty, color, size }) => {
         </div>
         <div className="flex m-2 border-b border-b-gray-300 p-4 justify-between text-xl">
           <span>Price: </span>
-          <p> {price}TK/pc</p>
+          <a href='tel:01881650948'> Call for price</a>
         </div>
         <div className="flex m-2 border-b border-b-gray-300 p-4 justify-between text-xl">
           <span>Minimum Order Quantity:</span>
