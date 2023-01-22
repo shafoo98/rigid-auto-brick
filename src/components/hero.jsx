@@ -26,7 +26,7 @@ const Hero = () => {
         <button
           type='button'
           onClick={() => navigate('/gallery')}
-          class='inline-block px-6 py-2.5 bg-[#292020] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out'
+          class='inline-block px-6 py-2.5 bg-[#464444] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#292020] hover:shadow-lg focus:bg-[#292020] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#292020] active:shadow-lg transition duration-150 ease-in-out'
         >
           Have A Look At Our Products
         </button>
