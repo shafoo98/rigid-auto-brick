@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-import React from "react";
-import { useNavigate } from "react-router-dom";
-=======
 import React from 'react'
->>>>>>> e5f3367ca2eaabf8eb6211e26da114b1f0ae62d9
 
 import './hero.css'
 
