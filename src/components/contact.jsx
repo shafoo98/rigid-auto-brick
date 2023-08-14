@@ -8,7 +8,7 @@ const Contact = () => {
         <form
           name='contact'
           method='POST'
-          action='/success/'
+          action='/success'
           data-netlify='true'
           className='max-w-md mx-auto p-6 bg-white rounded shadow-lg'
         >
