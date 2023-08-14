@@ -4,6 +4,7 @@ import Gallery from './components/gallery'
 import Hero from './components/hero'
 import Navbar from './components/navbar'
 import Contact from './components/contact'
+import Success from './components/success'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='gallery' element={<Gallery />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='success' element={<Success />} />
       </Route>
     </Routes>
   )
