@@ -9,6 +9,8 @@ const Contact = () => {
           name='contact'
           method='POST'
           netlify
+          netlify-honeypot='bot-field'
+          data-netlify='true'
           className='max-w-md mx-auto p-6 bg-white rounded shadow-lg'
         >
           <input type='hidden' name='form-name' value='contact' />
