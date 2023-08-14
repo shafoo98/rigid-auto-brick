@@ -9,7 +9,7 @@ const Contact = () => {
           name='contact'
           method='POST'
           action='/success/'
-          netlify
+          data-netlify='true'
           className='max-w-md mx-auto p-6 bg-white rounded shadow-lg'
         >
           <input type='hidden' name='form-name' value='contact' />
