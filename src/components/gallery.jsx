@@ -20,7 +20,7 @@ const Gallery = () => {
           color='Grey'
           minimumOrderQty={1000}
           type='Solid'
-          size='400 x 200 x 200 mm'
+          size='240 x 115 x 700 mm'
         />
         <Card
           name='Hollow Brick'
